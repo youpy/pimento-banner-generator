@@ -1,0 +1,10 @@
+h1 {
+    width: 2564px;
+    height: 336px;
+    background: url(../images/title.png);
+    text-indent: -9999px
+}
+
+form {
+    padding-left: 25px;
+}
