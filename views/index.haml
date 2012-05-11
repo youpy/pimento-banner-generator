@@ -1,5 +1,10 @@
 %html
   %head
-    %title hello
+    %title Pimento Banner Generator
   %body
-    %h1 hello
+    %h1 Pimento Banner Generator
+    %form{:id => 'generater', :action => '/generate', :method => 'POST' }
+      %p
+        text:
+        %input{:type => 'text', :name => 'text', :value => 'foo bar baz', :size => 20}
+        %input{:type => 'submit', :value => 'generate .xib'}
