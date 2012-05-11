@@ -6,6 +6,11 @@
     %h1 Pimento Banner Generator
     %form{:id => 'generater', :action => '/generate', :method => 'POST' }
       %p
-        text:
+        text(/[a-z0-9\/_\-:\.]/):
+      %p
         %input{:type => 'text', :name => 'text', :value => 'foo bar baz', :size => 20}
         %input{:type => 'submit', :value => 'generate .xib'}
+      %p
+        open generated .xib with Xcode.
+      %p
+        %a{:href => 'https://github.com/youpy/pimento-banner-generator'} github

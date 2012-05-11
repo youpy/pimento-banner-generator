@@ -1,4 +1,13 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
 h1 {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    left: -23px;
     width: 2564px;
     height: 336px;
     background: url(../images/title.png);
@@ -6,5 +15,5 @@ h1 {
 }
 
 form {
-    padding-left: 25px;
+    padding-left: 35px;
 }
